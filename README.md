@@ -1,5 +1,9 @@
 # RuiRet Portfolio's
 
+Autora: Ana Belén Ruiz Retamero
+Curso: 1º DAM A
+Fecha: 2026
+
 ## 1. Descripción del proyecto
 
 RuiRet Portfolio's es una página web personal creada como portfolio para presentar mis conocimientos, proyectos e intereses relacionados con el desarrollo de videojuegos, la programación y el diseño 3D.
