@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+    <channel>
+
+        <title>RuiRet Portfolio's</title>
+        <link>https://ruiret.github.io/RuiRet-portfolios/</link>
+        <description>Últimas novedades sobre desarrollo de videojuegos, programación y diseño 3D.</description>
+        <language>es-es</language>
+
+        <item>
+            <title>Bienvenido a RuiRet Portfolio's</title>
+            <link>https://ruiret.github.io/RuiRet-portfolios/</link>
+            <description>Presentación de mi portfolio personal y de mi trayectoria en el desarrollo de videojuegos.</description>
+        </item>
+
+        <item>
+            <title>Desarrollo de videojuegos con Unity</title>
+            <link>https://ruiret.github.io/RuiRet-portfolios/blog.html#unity</link>
+            <description>Descubre algunos de mis conocimientos y experiencias trabajando con Unity y C#.</description>
+        </item>
+
+        <item>
+            <title>Explorando Unreal Engine</title>
+            <link>https://ruiret.github.io/RuiRet-portfolios/blog.html#unreal</link>
+            <description>Conoce mis primeros pasos y proyectos realizados con Unreal Engine y Blueprints.</description>
+        </item>
+
+    </channel>
+
+</rss>
