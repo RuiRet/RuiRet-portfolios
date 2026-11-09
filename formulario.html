@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas y tecnologías | RuiRet Portfolio's</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- Cabecera de página -->
+     <header> 
+        <h1>Tecnologías y Herramientas</h1>
+        <p>Lenguajes, motores y programas que forman parte de mi aprendizaje</p>
+     </header>
+
+     <!-- Menú de navegación -->
+      <nav>
+        <ul>
+            <li><a href="index.html" title="Ir a la página de inicio">Inicio</a></li>
+            <li><a href="proyectos.html" title="Ver mis proyectos de programación">Programación y proyectos</a></li>
+            <li><a href="galeria.html" title="Ver mis trabajos de creación 3D">3D y arte</a></li>
+            <li><a href="tabla.html" title="Consultar tecnologías y herramientas">Herramientas y enlaces</a></li>
+            <li><a href="formulario.html" title="Acceder al formulario de contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Contenido principal -->
+    <main>
+        <section>
+            <h2>Envíame tu propuesta</h2>
+
+            <p>
+                Si tienes una propuesta, una colaboración o simplemente quieres contactar 
+                conmigo, puedes utilizar el siguiente formulario.
+            </p>
+
+            <form action="#" method="post">
+
+                <!-- Datos Personales -->
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <label for="nombre">Nombre</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        minlength="2"
+                        maxlength="40"
+                        pattern="[A-Za-zÁÉÍÓÚáéíóúÜüÑñ ]+"
+                        required>
+                    
+                    <label for="correo">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@correo.com"
+                        required>
+                </fieldset>
+
+                <!-- Información -->
+                <fieldset>
+                    <legend>Información del proyecto</legend>
+
+                    <label for="tipo">Tipo de proyecto:</label>
+                    <select id="tipo" name="tipo" required>
+                        <option value="" selected disabled>Selecciona una opción</option>
+                        <option value="videojuego">Videojuego</option>
+                        <option value="web">Página web</option>
+                        <option value="modelado">Modelado 3D</option>
+                        <option value="otro">Otro</option>
+                    </select>
+
+                    <label for="fecha">Fecha aproximada de inicio:</label>
+                    <input
+                        type="date"
+                        id="fecha"
+                        name="fecha">
+                    <label for="descripcion">Describe tu propuesta</label>
+                    <textarea
+                        id="descripcion"
+                        name="descripcion"
+                        rows="5"
+                        minlength="10"
+                        maxlength="500"
+                        placeholder="Cuéntame los detalles de tu proyecto..."
+                        required></textarea>
+                </fieldset>
+
+                <!-- Preferencias y archivos -->
+                 <fieldset>
+                    <legend>Preferencias y archivos</legend>
+
+                    <p>¿Qué áreas te interesan</p>
+
+                    <input
+                        type="checkbox"
+                        id="interes-videojuegos"
+                        name="intereses"
+                        value="videojuegos"
+                        checked>
+                    <label for="interes-videojuegos">Desarrollo de videojuegos</label>
+
+                    <input
+                        type="checkbox"
+                        id="interes-web"
+                        name="intereses"
+                        value="web">
+                    <label for="interes-web">Desarrollo Web</label>
+
+                    <input
+                        type="checkbox"
+                        id="interes-3d"
+                        name="intereses"
+                        value="3d">
+                    <label for="interes-3d">Diseño y modelado 3D</label>
+
+                    <p>¿Cómo prefieres que te contacte?</p>
+                    <input
+                        type="radio"
+                        id="contacto-email"
+                        name="medio-contacto"
+                        value="email"
+                        checked>
+                    <label for="contacto-email">Correo electrónico</label>
+
+                    <input
+                        type="radio"
+                        id="contacto-telefono"
+                        name="medio-contacto"
+                        value="telefono">
+                    <label for="contacto-telefono">Teléfono</label>
+
+                    <label for="disponibilidad">Nivel de disponibilidad:</label>
+                    <input
+                        type="range"
+                        id="disponibilidad"
+                        name="disponibilidad"
+                        min="1"
+                        max="10"
+                        step="1"
+                        value="5">
+
+                    <label for="archivo">Adjuntar documentación</label>
+                    <input
+                        type="file"
+                        id="archivo"
+                        name="archivo"
+                        accept=".pdf,.jpg,.png">
+
+                 </fieldset>
+
+                 <button type="submit">Enviar formulario</button>
+                 <button type="reset">Borrar datos</button>
+        
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>RuiRet Portfolio's</p>
+        <p>Portfolio personal de programación y desarrollo de videojuegos</p>
+        <p>Autor: Ana Belén | Curso: 1º DAM A | 2026</p>
+    </footer>
+</body>
+</html>
