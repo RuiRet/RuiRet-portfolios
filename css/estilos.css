@@ -1,0 +1,112 @@
+/* Imágenes y vídeos */
+img,
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+    background-color: #000;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    border: 1px solid #d5d5d5;
+    text-align: left;
+}
+
+th {
+    color: #fff;
+    background-color: #25283b;
+}
+
+/* Formularios */
+form {
+    display: grid;
+    gap: 0.8rem;
+}
+
+input,
+textarea,
+select,
+button {
+    max-width: 100%;
+    padding: 0.7rem;
+    font: inherit;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+button {
+    width: fit-content;
+    color: #fff;
+    background-color: #25283b;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #414766;
+}
+
+/* Pie de página */
+footer {
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #171925;
+}
+
+footer p {
+    margin: 0.35rem 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Adaptación a móviles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    main {
+        width: min(100% - 1rem, 1000px);
+        margin: 1rem auto;
+    }
+
+    section,
+    aside,
+    article {
+        padding: 1rem;
+    }
+}
